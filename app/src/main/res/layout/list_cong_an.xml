@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageViewHinh"
+        android:layout_width="149dp"
+        android:layout_height="160dp"
+        android:padding="10dp" />
+    <TextView
+        android:textColor="#ff00"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_toRightOf="@+id/imageViewHinh"
+        android:id="@+id/textviewTen"
+        android:text="Tên"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textviewCapBac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textviewTen"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imageViewHinh"
+        android:text="Cấp bậc"
+        android:textColor="#003cff"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textviewNoiCongTac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textviewTen"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="38dp"
+        android:layout_toRightOf="@id/imageViewHinh"
+        android:text="Nơi công tác"
+        android:textColor="#003cff"
+        android:textSize="22sp" />
+
+</RelativeLayout>
